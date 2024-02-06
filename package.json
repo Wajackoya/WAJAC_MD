@@ -1,7 +1,7 @@
 {
-    "name": "TheMystic-Bot-MD",
+    "name": "WAJAC_MD",
     "version": "1.0.0",
-    "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
+    "description": "OMG🇰🇪...look at this cool bot👋😁",
     "main": "index.js",
     "type": "module",
     "directories": {
@@ -14,16 +14,16 @@
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
-    "homepage": "https://github.com/Khalid-niccur",
+    "homepage": "https://github.com/Wajackoya",
     "author": {
-        "name": "BrunoSobrino"
+        "name": "Wajackoya"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Khalid-niccur"
+        "url": "https://github.com/Wajackoya"
     },
     "bugs": {
-        "url": "https://github.com/Khalid-niccur/issues"
+        "url": "https://github.com/Wajackoya/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
