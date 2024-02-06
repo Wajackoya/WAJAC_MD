@@ -9,11 +9,10 @@
 1.**FORK THIS REPO**
 -
 - *click the link below to fork*
-[]
+https://github.com/Wajackoya/WAJAC_MD/fork
 
 2.**SCAN QR TO LINK**
 - *scan the qr*-https://upper-romy-inrl-bot.koyeb.app/viwe/friendpage
-- *link phone with code*-
 
 3.**UPLOAD SESSION**
 
