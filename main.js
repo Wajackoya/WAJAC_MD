@@ -109,7 +109,7 @@ getMessage: async (key) => {
 if (store) {
 const msg = await store.loadMessage(key.remoteJid, key.id)
 return msg.message || undefined }
-return { conversation: "hello, i'm Khalid" }},   
+return { conversation: "hello, i'm〖┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒" }},   
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
@@ -223,7 +223,7 @@ if (update.qr != 0 && update.qr != undefined) {
 console.log(chalk.yellow('🚩ㅤScan this QR code, the QR code expires in 60 seconds.'))
 }
 if (connection == 'open') {
-console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ 𝙲𝙾𝙽𝙴𝙲𝚃𝙰𝙳𝙾 𝙲𝙾𝚁𝚁𝙴𝙲𝚃𝙰𝙼𝙴𝙽𝚃𝙴 𝙰𝙻 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅\n│\n▣──────────────────────────────···'))}
+console.log(chalk.yellow('▣──────────────────────────────···\n│\n│❧ CONNECTED TO WAJAC_MD ✅\n│\n▣──────────────────────────────···'))}
 if (connection == 'close') {
 console.log(chalk.yellow(`🚩ㅤConnection closed, please delete ${global.authFile} folder and rescan QR code`))}
 }
@@ -256,10 +256,10 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 🐝𝐖𝐄𝐋𝐂𝐎𝐌𝐄🐝/𝙰* \n*║*\n*╟❧ 🐝𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍🐝:*\n\n@desc\n\n*║*\n*╟❧ 🐝𝐄𝐍𝐉𝐎𝐘 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐘 𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏🐝!!*\n*╚══════════════*'
-conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ 🐝𝐒𝐄𝐄 𝐘𝐎𝐔 𝐒𝐎𝐎𝐍🐝 👋🏻* \n*╚══════════════*'
-conn.spromote = '*@user JOINS THE ADMINS GROUP !!*'
-conn.sdemote = '*@user LEAVE ADMINS GROUP !!*'
+conn.welcome = '*╔══════════════*\n*╟❧ @subject*\n*╠══════════════*\n*╟❧ @user*\n*╟❧ 𝐖𝐄𝐋𝐂𝐎𝐌𝐄🇰🇪/𝙰* \n*║*\n*╟❧ 𝐆𝐑𝐎𝐔𝐏 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍🇰🇪:*\n\n@desc\n\n*║*\n*╟❧ 𝐄𝐍𝐉𝐎𝐘 𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐘 𝐈𝐍 𝐓𝐇𝐈𝐒 𝐆𝐑𝐎𝐔𝐏🇰🇪!!*\n*╚══════════════*'
+conn.bye = '*╔══════════════*\n*╟❧ @user*\n*╟❧ 𝐒𝐄𝐄 𝐘𝐎𝐔 𝐒𝐎𝐎𝐍 👋🏻🥺* \n*╚══════════════*'
+conn.spromote = '*@user JOINS THE ADMINS GROUP 😁 !!*'
+conn.sdemote = '*@user LEAVE ADMINS GROUP 🥺!!*'
 conn.sDesc = '*THE DESCRIPTION HAS BEEN MODIFIED*\n\n*NEW DESCRIPTION:* @desc'
 conn.sSubject = '*GROUP NAME HAS BEEN CHANGED*\n*NEW NAME:* @subject'
 conn.sIcon = '*THE GROUP PHOTO HAS BEEN CHANGED!!*'
@@ -408,7 +408,7 @@ if (stopped == 'close') return
 const status = global.db.data.settings[conn.user.jid] || {}
 let _uptime = process.uptime() * 1000    
 let uptime = clockString(_uptime)
-let bio = `🤖🐝𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎🐝: ${uptime} ┃ 👑 𝐛𝐲 𝐊𝐇𝐀𝐋𝐈𝐃-𝐓𝐄𝐂𝐇┃ 🔗 Github  ᴏғᴄ: https://github.com/Khalid-niccur`
+let bio = `🤖𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎: ${uptime} ┃ 👑 𝐛𝐲 〖┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜 BOT┃ 🔗 Github  ᴏғᴄ: https://github.com/Wajackoya`
 await conn.updateProfileStatus(bio).catch(_ => _)
 }, 60000)
 function clockString(ms) {
