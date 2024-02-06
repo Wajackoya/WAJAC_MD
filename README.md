@@ -17,7 +17,9 @@ https://github.com/Wajackoya/WAJAC_MD/fork
 3.**UPLOAD SESSION**
 
 4.**DEPLOY**
-- *Heroku*-
+- *Heroku*
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 - *Koyeb*-
 - *Railway*-
 
