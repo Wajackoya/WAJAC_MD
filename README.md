@@ -12,7 +12,7 @@
 https://github.com/Wajackoya/WAJAC_MD/fork
 
 2.**SCAN QR TO LINK**
-- *scan the qr*-https://upper-romy-inrl-bot.koyeb.app/viwe/friendpage
+- *scan the qr*- button role="https://upper-romy-inrl-bot.koyeb.app/viwe/friendpage"
 
 3.**UPLOAD SESSION**
 
@@ -20,9 +20,7 @@ https://github.com/Wajackoya/WAJAC_MD/fork
 - *Heroku*
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-- *Koyeb*-
-- *Railway*-
-
+- *Replit*
 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Wajackoya)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg' alt='instagram' height='40'>](https://www.instagram.com/wajackoyah_jnr/)  
