@@ -12,7 +12,7 @@
 []
 
 2.**SCAN QR TO LINK**
-- *scan the qr*-
+- *scan the qr*-https://upper-romy-inrl-bot.koyeb.app/viwe/friendpage
 - *link phone with code*-
 
 3.**UPLOAD SESSION**
