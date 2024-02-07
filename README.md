@@ -25,9 +25,10 @@
 
 ---
 
-## **IMPORTANT**
+**𝗙𝗢𝗥𝗞 𝗡𝗢𝗪
 
-> **Warning**: This script is not for trading without permission.
+<p align="left">
+<a href="https://github.com/Wajackoya/WAJAC_MD/fork"><img align="center" src="https://i.ibb.co/cgSL5wv/1705786098402-xl7hci-2-0.jpg" alt="Fork and deploy" height="35" width="155" /></a>
 
 ---
 
