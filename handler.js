@@ -1055,7 +1055,7 @@ let chatgptUser = global.chatgpt.data.users[m.sender];
                     for (let [jid] of global.reportes_solicitudes.filter(([number]) => number)) {
                         let data = (await conn.onWhatsApp(jid))[0] || {}
                         if (data.exists)
-                            await m.reply(`*[ ⚠️ COMMAND REPORT WITH FAULTS ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ USER:* ${m.sender}\n*—◉ 𝙲𝙾𝙼M𝙰𝙽𝙳:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗]EPORT IT TO THE CREATOR OF THE BOT TO GIVE YOU A SOLUTION YOU CAN USE THE COMMAND #reporte*`.trim(), data.jid)
+                            await m.reply(`*[ ⚠️ COMMAND REPORT WITH FAULTS ⚠️ ]*\n\n*—◉ 𝙿𝙻𝚄𝙶𝙸𝙽:* ${name}\n*—◉ USER:* ${m.sender}\n*—◉ 𝙲𝙾𝙼M𝙰𝙽𝙳:* ${m.text}\n\n*—◉ 𝙴𝚁𝚁𝙾𝚁:*\n\`\`\`${format(e)}\`\`\`\n\n*[❗]REPORT IT TO THE CREATOR OF THE BOT TO GIVE YOU A SOLUTION YOU CAN USE THE COMMAND #reporte*`.trim(), data.jid)
                     }
                 }
             }
@@ -1435,8 +1435,8 @@ export async function callUpdate(callUpdate) {
     let callmsg = await this.reply(nk.from, `Hola *@${nk.from.split('@')[0]}*, las ${nk.isVideo ? 'video calls' : 'calls'} are not allowed, you will be blocked.\n-\nIf you accidentally called please contact my creator to unblock you!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑;;;\nFN:𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑\nORG:𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑\nTITLE:\nitem1.TEL;waid=254736958034:+254 793 618247\nitem1.X-ABLabel:𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑\nX-WA-BIZ-DESCRIPTION:[❗] CONTACT THIS NUMBER FOR IMPORTANT THINGS.\nX-WA-BIZ-NAME:𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑\nEND:VCARD`
-    await this.sendMessage(nk.from, { contacts: { displayName: '𝐊𝐇𝐀𝐋𝐈𝐃 𝐍𝐈𝐂𝐂𝐔𝐑 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
+    let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒 ☢️;;;\nFN:░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒 ☢️\nORG:░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒 ☢️\nTITLE:\nitem1.TEL;waid=254102510747:+254102510747\nitem1.X-ABLabel:░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒 ☢️\nX-WA-BIZ-DESCRIPTION:[❗] CONTACT THIS NUMBER FOR IMPORTANT THINGS.\nX-WA-BIZ-NAME:░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒 ☢️\nEND:VCARD`
+    await this.sendMessage(nk.from, { contacts: { displayName: '░┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜𝕠𝕪𝕒  ☢️', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
     }
@@ -1485,7 +1485,7 @@ global.dfail = (type, m, conn) => {
         restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓  ⚠️ ] 🔐 This feature is *disabled*'
     }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: '𝐁𝐔𝐌𝐁𝐋𝐄🐝𝐁𝐄𝐄 𝐁𝐎𝐓 ', thumbnail: imagen1, sourceUrl: 'https://github.com/BrunoSobrino/TheMystic-Bot-MD' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] 𝐀𝐕𝐈𝐒𝐎 - 𝐀𝐋𝐄𝐑𝐓𝐀', body: 'WAJAC_MD BOT☢️ ', thumbnail: imagen1, sourceUrl: 'https://github.com/Wajackoya/WAJAC_MD' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
