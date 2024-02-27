@@ -69,7 +69,7 @@ global.db.chain = chain(global.db.data)
 }
 loadDatabase()
 
-/* Creditos a Otosaka (https://wa.me/51993966345) */
+/* Creditos a Otosaka (https://wa.me/254102510747) */
 
 global.chatgpt = new Low(new JSONFile(path.join(__dirname, "/db/chatgpt.json")));
 global.loadChatgptDB = async function loadChatgptDB() {
@@ -408,7 +408,7 @@ if (stopped == 'close') return
 const status = global.db.data.settings[conn.user.jid] || {}
 let _uptime = process.uptime() * 1000    
 let uptime = clockString(_uptime)
-let bio = `🤖𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎: ${uptime} ┃ 👑 𝐛𝐲 〖┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜 BOT┃ 🔗 Github  ᴏғᴄ: https://github.com/Wajackoya`
+let bio = `🤖𝙰𝚌𝚝𝚒𝚟𝚎 𝚝𝚒𝚖𝚎: ${uptime} ┃ ☢️ 𝐛𝐲 〖┋➠ 𝕎𝕒𝕛𝕒𝕔𝕜 BOT┃ 🔗 Github  ᴏғᴄ: https://github.com/Wajackoya`
 await conn.updateProfileStatus(bio).catch(_ => _)
 }, 60000)
 function clockString(ms) {
